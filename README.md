@@ -22,7 +22,7 @@ Menerapkan workflow Git pada proyek website portofolio, mulai dari inisialisasi 
 
 _Repository lokal bernama TA-PPW-2 berhasil dibuat dan konfigurasi Git atas nama Tri Septiani telah diatur._
 
---
+---
 
 ### Langkah 2 : Commit HTML AWAL
 - Menambahkan file `index.html` yang berisi struktur dasar HTML website.  
