@@ -61,17 +61,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 90px; /* jarak antar foto dan teks */
-  padding: 130px 20px;
+  gap: 50px; /* dikurangi biar foto & teks lebih rapat */
+  padding: 80px 40px; /* padding lebih kecil biar nggak terlalu kosong */
   background: linear-gradient(120deg, #0b0d10, #102b56);
 }
 
 .hero-img img {
-  width: 320px;
-  height: 320px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   border: 3px solid #4da3ff;
-  box-shadow: 0 0 25px #4da3ff80;
+  box-shadow: 0 0 20px #4da3ff80;
   transition: transform 0.3s;
 }
 
@@ -202,44 +202,60 @@ body {
 
 .portfolio-cards {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 25px;
+  justify-content: center;    /* biar semua card di tengah */
+  align-items: center;        /* rata vertikal */
+  flex-wrap: nowrap;          /* biar satu baris aja */
+  overflow-x: auto;           /* bisa scroll kalau nggak muat */
+  gap: 20px;                  /* jarak antar card */
+  padding: 20px 0;
+  scroll-behavior: smooth;
+}
+
+/* Scrollbar lebih halus dan minimalis */
+.portfolio-cards::-webkit-scrollbar {
+  height: 6px;
+}
+
+.portfolio-cards::-webkit-scrollbar-thumb {
+  background: #4da3ff;
+  border-radius: 10px;
+}
+
+.portfolio-cards::-webkit-scrollbar-track {
+  background: #0f1624;
 }
 
 .card {
   background-color: #1b2435;
-  width: 280px;
+  width: 220px;               /* ukuran kartu lebih kecil */
   border-radius: 10px;
   text-align: left;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   overflow: hidden;
+  flex: 0 0 auto;             /* biar tiap card tetap ukuran tetap */
 }
 
 .card img {
   width: 100%;
-  height: 180px;
-  object-fit: cover; /* biar pas */
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  height: 130px;              /* tinggi gambar dikecilkan */
+  object-fit: cover;
 }
 
 .card h3 {
-  color: #4da3ff;
-  margin: 15px 20px 5px 20px;
+  font-size: 16px;            /* judul lebih kecil */
+  margin: 10px 15px 5px 15px;
 }
 
 .card p {
-  color: #bfbfbf;
-  font-size: 16px;
-  line-height: 1.7;
-  margin: 0 20px 20px 20px;
+  font-size: 14px;            /* teks deskripsi lebih kecil */
+  margin: 0 15px 15px 15px;
+  line-height: 1.6;
 }
-
 .card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 8px 20px rgba(77, 163, 255, 0.3);
+  box-shadow: 0 0 25px rgba(77, 163, 255, 0.5); /* efek glow biru */
+  border: 1px solid #4da3ff; /* garis pinggir biru */
 }
 
 /* === KONTAK === */
@@ -380,5 +396,5 @@ footer {
   padding: 25px;
   border-top: 1px solid #1f2a44;
   color: #8ea0b8;
-  font-size: 16px;
+  font-size: 16px;
 }
