@@ -7,13 +7,7 @@ pada mata kuliah **Praktikum Pemrograman Web**, Teknik Informatika, Fakultas Tek
 **NPM  : 2315061036**
 
 ## Tujuan
-Tujuan dari percobaan ini adalah untuk menerapkan alur kerja (*workflow*) Git yang lengkap pada proyek website portofolio pribadi, meliputi:
-- Inisialisasi repository lokal
-- Commit bertahap untuk setiap section website
-- Pembuatan branch untuk eksperimen styling
-- Merge hasil branch setelah selesai
-- Push ke GitHub
-- Penambahan file README.md sebagai dokumentasi proyek
+Menerapkan workflow Git pada proyek website portofolio, mulai dari inisialisasi repository, commit bertahap, pembuatan dan penggabungan branch, hingga push ke GitHub dan pembuatan README.md sebagai dokumentasi.
 
 ## Langkah-Langkah Pengerjaan
 
@@ -24,4 +18,4 @@ Tujuan dari percobaan ini adalah untuk menerapkan alur kerja (*workflow*) Git ya
 - Verifikasi dengan git status.
 
   <img width="764" height="511" alt="step 1" src="https://github.com/user-attachments/assets/a81d4954-4078-485a-b60d-1386a5f023a2" />
-  __Repository lokal bernama TA-PPW-2 berhasil dibuat dan konfigurasi Git atas nama Tri Septiani telah diatur__
+  _Repository lokal bernama TA-PPW-2 berhasil dibuat dan konfigurasi Git atas nama Tri Septiani telah diatur_
