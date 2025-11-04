@@ -18,4 +18,5 @@ Menerapkan workflow Git pada proyek website portofolio, mulai dari inisialisasi 
 - Verifikasi dengan git status.
 
   <img width="764" height="511" alt="step 1" src="https://github.com/user-attachments/assets/a81d4954-4078-485a-b60d-1386a5f023a2" />
-  _Repository lokal bernama TA-PPW-2 berhasil dibuat dan konfigurasi Git atas nama Tri Septiani telah diatur_
+  
+  *Repository lokal bernama TA-PPW-2 berhasil dibuat dan konfigurasi Git atas nama Tri Septiani telah diatur*
