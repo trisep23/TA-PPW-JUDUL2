@@ -6,12 +6,8 @@ pada mata kuliah **_Praktikum Pemrograman Web_**, Teknik Informatika, Fakultas T
 **Nama:** Tri Septiani  
 **NPM:** 2315061036  
 
----
-
 ## Tujuan
 Menerapkan workflow Git pada proyek website portofolio, mulai dari inisialisasi repository, commit bertahap, pembuatan dan penggabungan branch, hingga push ke GitHub serta pembuatan README.md sebagai dokumentasi.
-
----
 
 ## Langkah-Langkah Pengerjaan
 
