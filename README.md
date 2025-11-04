@@ -11,12 +11,10 @@ Menerapkan workflow Git pada proyek website portofolio, mulai dari inisialisasi 
 
 ## Langkah-Langkah Pengerjaan
 ### Langkah 1 : Konfigurasi Awal dan Inisialisasi Repository Git
-- Konfigurasi username dan email Git mennggunakan git config
+- Konfigurasi username dan email Git menggunakan git config
 - Membuat folder proyek TA-PPW-2 dan masuk ke dalamnya
-- Konfigurasi username dan email Git menggunakan git config.
-- Membuat folder proyek TA-PPW-2 dan masuk ke dalamnya.
-- Inisialisasi repository lokal dengan git init.
-- Verifikasi dengan git status.
+- Inisialisasi repository lokal dengan git init
+- Verifikasi dengan git status
 
   <img width="764" height="511" alt="step 1" src="https://github.com/user-attachments/assets/a81d4954-4078-485a-b60d-1386a5f023a2" />
 
