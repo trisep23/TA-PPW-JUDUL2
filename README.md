@@ -11,7 +11,7 @@ Menerapkan workflow Git pada proyek website portofolio, mulai dari inisialisasi 
 
 ## Langkah-Langkah Pengerjaan
 
-### Langkah 1: Konfigurasi Awal dan Inisialisasi Repository Git
+### Langkah 1 : Konfigurasi Awal dan Inisialisasi Repository Git
 - Konfigurasi username dan email Git menggunakan `git config`<br>
 - Membuat folder proyek **TA-PPW-2** dan masuk ke dalamnya<br>
 - Inisialisasi repository lokal dengan `git init`<br>
@@ -21,3 +21,12 @@ Menerapkan workflow Git pada proyek website portofolio, mulai dari inisialisasi 
 
 
 _Repository lokal bernama TA-PPW-2 berhasil dibuat dan konfigurasi Git atas nama Tri Septiani telah diatur._
+
+### Langkah 2 : Commit HTML AWAL
+- Menambahkan file `index.html` yang berisi struktur dasar HTML website.  
+- Melakukan commit pertama dengan pesan *"tambah file index.html"*.  
+
+<img width="608" height="223" alt="step 2" src="https://github.com/user-attachments/assets/26ef8f8e-ac48-40b6-a449-669d99fe22b1" />
+
+
+*Menampilkan hasil commit pertama pada terminal menggunakan perintah `git log --oneline`, menunjukkan bahwa commit berhasil dibuat pada branch master.*
