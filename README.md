@@ -10,7 +10,6 @@ pada mata kuliah **Praktikum Pemrograman Web**, Teknik Informatika, Fakultas Tek
 Menerapkan workflow Git pada proyek website portofolio, mulai dari inisialisasi repository, commit bertahap, pembuatan dan penggabungan branch, hingga push ke GitHub dan pembuatan README.md sebagai dokumentasi.
 
 ## Langkah-Langkah Pengerjaan
-
 ### Langkah 1 : Konfigurasi Awal dan Inisialisasi Repository Git
 - Konfigurasi username dan email Git menggunakan git config.
 - Membuat folder proyek TA-PPW-2 dan masuk ke dalamnya.
